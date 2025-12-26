@@ -55,9 +55,9 @@ function breatheAnimation() {
 
           setTimeout(() => {
             circle.innerHTML = `<span class="stacked">just<br>breathe</span>`;
-          }, 15000); // Wait 15 seconds before returning to "Just Breathe"
+          }, 15000); 
         } else {
-          breatheAnimation(); // continue breathing cycle
+          breatheAnimation();
         }
       }, durations.exhale);
 
@@ -86,3 +86,4 @@ circle.addEventListener("click", () => {
     circle.innerHTML = `<span class="stacked">press to<br>calm down</span>`;
   }
 });
+
