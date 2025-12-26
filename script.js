@@ -8,8 +8,8 @@ let animationTimeouts = [];
 
 const durations = {
   inhale: 4000,
-  hold: 7000,
-  exhale: 8000,
+  hold: 6000,
+  exhale: 7000,
 };
 
 function clearAnimations() {
@@ -86,4 +86,5 @@ circle.addEventListener("click", () => {
     circle.innerHTML = `<span class="stacked">press to<br>calm down</span>`;
   }
 });
+
 
